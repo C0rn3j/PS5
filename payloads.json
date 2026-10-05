@@ -66,6 +66,17 @@
     "category": "System & Jailbreak"
   },
   {
+    "name": "shadowmountplus",
+    "filename": "shadowmountplus.elf",
+    "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta3/shadowmountplus.elf",
+    "source": "https://github.com/drakmor/ShadowMountPlus/releases",
+    "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta3/shadowmountplus.elf",
+    "description": "- Fixed an issue with mounting backports from /data/homebrew/backports when using a custom scanpath list.",
+    "last_update": "2026-10-01",
+    "version": "1.7beta3",
+    "category": "System & Jailbreak"
+  },
+  {
     "name": "elfldr",
     "filename": "elfldr-ps5.elf",
     "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.26/elfldr-ps5.elf",
@@ -199,13 +210,13 @@
   },
   {
     "name": "ps5upload",
-    "filename": "ps5upload-5.41.0.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v5.41.0/ps5upload-5.41.0.elf",
+    "filename": "ps5upload-6.1.0.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v6.1.0/ps5upload-6.1.0.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v5.41.0/ps5upload-5.41.0.elf",
-    "description": "Installs that the PS5 used to decline now go through. On FW 13.60 the",
-    "last_update": "2026-10-01",
-    "version": "v5.41.0",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v6.1.0/ps5upload-6.1.0.elf",
+    "description": "Files works like FileZilla.",
+    "last_update": "2026-10-05",
+    "version": "v6.1.0",
     "category": "Networking & Servers"
   },
   {
@@ -441,13 +452,13 @@
   },
   {
     "name": "ps5-app-dumper",
-    "filename": "ps5-app-dumper_v2.00.elf",
-    "url": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.00/ps5-app-dumper_v2.00.elf",
+    "filename": "ps5-app-dumper_v2.10.elf",
+    "url": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.10/ps5-app-dumper_v2.10.elf",
     "source": "https://github.com/EchoStretch/ps5-app-dumper/releases",
-    "source_direct": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.00/ps5-app-dumper_v2.00.elf",
+    "source_direct": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.10/ps5-app-dumper_v2.10.elf",
     "description": "Highlights",
-    "last_update": "2026-09-29",
-    "version": "v2.00",
+    "last_update": "2026-10-03",
+    "version": "v2.10",
     "category": "Utilities & Tools"
   },
   {
@@ -473,6 +484,28 @@
     "category": "Utilities & Tools"
   },
   {
+    "name": "PS5SX2Installer",
+    "filename": "PS5SX2Installer.elf",
+    "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-130/PS5SX2Installer.elf",
+    "source": "https://github.com/Swordpdf/PS5SX2/releases",
+    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-130/PS5SX2Installer.elf",
+    "description": "PS5SX2 1.9 (build vk-285-130)",
+    "last_update": "2026-10-05",
+    "version": "vk-285-130",
+    "category": "Utilities & Tools"
+  },
+  {
+    "name": "PS5SXHelper",
+    "filename": "PS5SXHelper.elf",
+    "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-130/PS5SXHelper.elf",
+    "source": "https://github.com/Swordpdf/PS5SX2/releases",
+    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-130/PS5SXHelper.elf",
+    "description": "PS5SX2 1.9 (build vk-285-130)",
+    "last_update": "2026-10-05",
+    "version": "vk-285-130",
+    "category": "Utilities & Tools"
+  },
+  {
     "name": "PSPlay",
     "filename": "PSPlay-2.1.elf",
     "url": "https://github.com/MounirHero/PS-Play/releases/download/2.1/PSPlay-2.1.elf",
@@ -484,47 +517,36 @@
     "category": "Utilities & Tools"
   },
   {
-    "name": "shadowmountplus",
-    "filename": "shadowmountplus.elf",
-    "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta2/shadowmountplus.elf",
-    "source": "https://github.com/drakmor/ShadowMountPlus/releases",
-    "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta2/shadowmountplus.elf",
-    "description": "This release focuses on installed PKG backports, safer suspend handling, faster storage operations, and runtime stability.",
-    "last_update": "2026-09-21",
-    "version": "1.7beta2",
-    "category": "Utilities & Tools"
-  },
-  {
     "name": "web-file-mgr",
-    "filename": "web-file-mgr-v1.9.elf",
-    "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.9/web-file-mgr-v1.9.elf",
+    "filename": "web-file-mgr-v1.10.elf",
+    "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/web-file-mgr-v1.10.elf",
     "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
-    "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.9/web-file-mgr-v1.9.elf",
-    "description": "Change log:",
-    "last_update": "2026-09-16",
-    "version": "v1.9",
+    "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/web-file-mgr-v1.10.elf",
+    "description": "Change logs:",
+    "last_update": "2026-10-05",
+    "version": "v1.10",
     "category": "Utilities & Tools"
   },
   {
     "name": "wfm",
     "filename": "wfm-7zip-helper.elf",
-    "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.9/wfm-7zip-helper.elf",
+    "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/wfm-7zip-helper.elf",
     "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
-    "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.9/wfm-7zip-helper.elf",
-    "description": "Change log:",
-    "last_update": "2026-09-16",
-    "version": "v1.9",
+    "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/wfm-7zip-helper.elf",
+    "description": "Change logs:",
+    "last_update": "2026-10-05",
+    "version": "v1.10",
     "category": "Utilities & Tools"
   },
   {
     "name": "wfm-7zip-helper",
-    "filename": "wfm-7zip-helper-v26.03-1.elf",
-    "url": "https://github.com/owendswang/wfm-7zip-helper/releases/download/v26.03-1/wfm-7zip-helper-v26.03-1.elf",
+    "filename": "wfm-7zip-helper-v26.03-2.elf",
+    "url": "https://github.com/owendswang/wfm-7zip-helper/releases/download/v26.03-2/wfm-7zip-helper-v26.03-2.elf",
     "source": "https://github.com/owendswang/wfm-7zip-helper/releases",
-    "source_direct": "https://github.com/owendswang/wfm-7zip-helper/releases/download/v26.03-1/wfm-7zip-helper-v26.03-1.elf",
-    "description": "Made the ELF file smaller. No changes for functions.",
-    "last_update": "2026-09-16",
-    "version": "v26.03-1",
+    "source_direct": "https://github.com/owendswang/wfm-7zip-helper/releases/download/v26.03-2/wfm-7zip-helper-v26.03-2.elf",
+    "description": "Improved the write speed to disk drive while extracting.",
+    "last_update": "2026-10-05",
+    "version": "v26.03-2",
     "category": "Utilities & Tools"
   }
 ]
