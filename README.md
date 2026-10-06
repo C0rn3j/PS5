@@ -61,8 +61,10 @@ These are alternative URLs pointing to the same generated catalog. You normally 
 
 ---
 
-## For maintainers
+## Making your own fork
 
-### Adding a payload
+Simply replace the username in the example links with the one used in your own fork.
 
-Edit [`links.txt`](links.txt).
+You will also need to enable GitHub Actions in the Settings of the fork otherwise the plugins won't be generated/updated.
+
+You can edit the payload list by editing [`links.txt`](links.txt).
