@@ -1,0 +1,42 @@
+# PS5 Payload Manager - Payload Sources
+# --- GitHub repositories ---
+github:VenezuelanBiggie24/Machete-PS5-Backup-Manager
+github:juma-sayeh/PS5-Game-Compressor
+github:tsuramatsu1/apr-emu-updater
+github:ps5-payload-dev/jtplay
+github:n0llptr/Playstation-5-Save-Mounter
+github:aydencharles/onionHEN
+github:pegasus-ps5/pegasus-dl
+github:ItsBlurf/PoorDS4
+github:StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher
+github:Michele-M-Media/PIZZA-HEN
+github:MounirHero/PS-Play
+github:sainsaji/EVO-PLAYER-PS5
+github:seregonwar/MemDBG
+github:BestPig/BackPork
+github:drakmor/ftpsrv
+github:drakmor/nanoDNS
+github:drakmor/ShadowMountPlus
+github:EchoStretch/kstuff
+github:EchoStretch/kstuff-lite
+github:EchoStretch/kstuff-toggle
+github:EchoStretch/ps5-app-dumper
+github:etaHEN/etaHEN
+github:ItsBlurf/BFpilot
+github:itsPLK/pldmgr
+github:itsPLK/PS5-Lapy-JB-Daemon
+github:itsPLK/ps5-webkit-autoloader
+github:notmaj0r/CheatRunner
+github:OpenSourcereR-dev/ps5debug-NG
+github:owendswang/ps5-web-file-manager
+github:owendswang/wfm-7zip-helper
+github:phantomptr/ps5upload
+github:ps5-linux/ps5-linux-loader
+github:ps5-payload-dev/elfldr
+github:ps5-payload-dev/ftpsrv
+github:ps5-payload-dev/klogsrv
+github:ps5-payload-dev/shsrv
+github:ps5-payload-dev/websrv
+github:seregonwar/zftpd
+# A port of PCSX2 to the PS5
+github:Swordpdf/PS5SX2
