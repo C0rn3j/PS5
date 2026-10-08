@@ -8,6 +8,9 @@ PS5 patches (closed source site I suppose :/) - https://www.prosperopatches.com/
 
 # JB (13.60 or earlier)
 
+Disable automatic update download AND automatic update installation in Settings.  
+I repeat, disable automatic updates, do that first.
+
 Set DNS server to 45.56.67.85 - this blocks SONY domains and replaces User Guide with jailbreak page.
 
 Jailbreak for 13.60 - https://github.com/ntfargo/Relapse-Exploit - opens privileged ELF loader on port 9021 which can accept other payloads - you can drop them like so: `nc -q0 192.168.100.13 9021 < pkg-manager_v1.4.1.elf`
