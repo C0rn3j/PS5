@@ -54,16 +54,6 @@ Open the Payload Manager dashboard on your PS5:
 https://raw.githubusercontent.com/C0rn3j/PLDMGR_JSON/main/payloads.json
 ```
 
-### GitHub Pages
-
-```text
-https://c0rn3j.github.io/PLDMGR_JSON/payloads.json
-```
-
-These are alternative URLs pointing to the same generated catalog. You normally only need to add one.
-
----
-
 ## Making your own fork
 
 Simply replace the username in the example links with the one used in your own fork.
