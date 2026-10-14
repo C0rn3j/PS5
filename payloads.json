@@ -408,13 +408,13 @@
   },
   {
     "name": "pldmgr",
-    "filename": "pldmgr_v0.5.2.elf",
-    "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.2/pldmgr_v0.5.2.elf",
+    "filename": "pldmgr_v0.6.0.elf",
+    "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.0/pldmgr_v0.6.0.elf",
     "source": "https://github.com/itsPLK/pldmgr/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.2/pldmgr_v0.5.2.elf",
-    "description": "- Rebuilt with latest SDK (FW 13.60 support)",
-    "last_update": "2026-09-29",
-    "version": "v0.5.2",
+    "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.0/pldmgr_v0.6.0.elf",
+    "description": "Changelog",
+    "last_update": "2026-10-13",
+    "version": "v0.6.0",
     "category": "Utilities & Tools"
   },
   {
@@ -484,14 +484,36 @@
     "category": "Utilities & Tools"
   },
   {
-    "name": "ps5sx2-bot",
-    "filename": "ps5sx2-bot.elf",
-    "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-163/ps5sx2-bot.elf",
+    "name": "PS5SX2Installer",
+    "filename": "PS5SX2Installer.elf",
+    "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2Installer.elf",
     "source": "https://github.com/Swordpdf/PS5SX2/releases",
-    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-163/ps5sx2-bot.elf",
-    "description": "Release 2.03 is built on top of 2.02 (vk-285-162).",
-    "last_update": "2026-10-11",
-    "version": "vk-285-163",
+    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2Installer.elf",
+    "description": "PS5SX2 2.10 (build vk-285-171)",
+    "last_update": "2026-10-14",
+    "version": "vk-285-171",
+    "category": "Utilities & Tools"
+  },
+  {
+    "name": "PS5SXHelper",
+    "filename": "PS5SXHelper.elf",
+    "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SXHelper.elf",
+    "source": "https://github.com/Swordpdf/PS5SX2/releases",
+    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SXHelper.elf",
+    "description": "PS5SX2 2.10 (build vk-285-171)",
+    "last_update": "2026-10-14",
+    "version": "vk-285-171",
+    "category": "Utilities & Tools"
+  },
+  {
+    "name": "PS5SXHelper-no-data-mount",
+    "filename": "PS5SXHelper-no-data-mount.elf",
+    "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SXHelper-no-data-mount.elf",
+    "source": "https://github.com/Swordpdf/PS5SX2/releases",
+    "source_direct": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SXHelper-no-data-mount.elf",
+    "description": "PS5SX2 2.10 (build vk-285-171)",
+    "last_update": "2026-10-14",
+    "version": "vk-285-171",
     "category": "Utilities & Tools"
   },
   {
