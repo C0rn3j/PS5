@@ -16,9 +16,8 @@ Note that the jailbreak can fail to apply, breaking the current boot of the cons
 Note that the jailbreak can catastrophically break the SONY OS to the point where its own recovery will kick in - this means you lose all the data on the console, including the blu-ray pairing for the SONY optical drive if you have one - this means your only avenue to use optical media would be to get a non-SONY optical drive which does not have DRM to be used - or to reverse engineer the needed pairing activation yourself.  
 In addition, the recovery system will attempt to download the LATEST FIRMWARE RECOVERY IMAGE - do not let it do that, look up how to manually get the version you're already on, and let it use that instead, else you lose the ability to jailbreak.
 
-The jailbreak, when it succeeds, opens a privileged ELF loader on port 9021 which can accept other payloads - you can drop them via netcat like so: `nc -q0 192.168.100.13 9021 < pkg-manager_v1.4.1.elf`
+The jailbreak, when it succeeds, opens a privileged ELF loader on port 9021 which can accept other payloads - the same User Guide website also allows you to install payloads over the website, which is arguably more user friendly and you should stick with that, unless you know better, but you can also drop them from another device over netcat like so: `nc -q0 192.168.100.13 9021 < pkg-manager_v1.4.1.elf`
 
-The same User Guide website also allows you to install payloads over the website, which is arguably more user friendly and you should stick with that, unless you know better.
 
 Drop in payload manager and add this repo to it(see below), then from payload manager install:
   * kstuff-lite - let's you fake license checks (?) - add to autoloader as first
