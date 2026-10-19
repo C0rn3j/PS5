@@ -41,33 +41,26 @@ Drop in payload manager and add this repo to it(see below), then from payload ma
 
 # Game formats
 
-Folder - just a directory with eboot.bin and other needed app files - seems to work poorly for some apps, for example it breaks audio for PS5 version of Crash Bandicoot 4 (except the videos)
+* Folder - just a directory with eboot.bin and other needed app files - seems to work poorly for some apps, for example it breaks audio for PS5 version of Crash Bandicoot 4 (except the videos)
+* ExFAT - .exfat suffixed file that's an exfat file - `mkexfat.sh` in this repo can create them from the Folder format - not compressed (?)
+* FPKG - .pkg fancy compressed package in the console's native format - should be best for file size, performance and compatibility - unsupported on 13.60 at the time of writing, can be extracted to Folder format via https://github.com/thanhsondev/PSVIETHOA-FPKG-Builder - which seems heavily vibe coded but works nicely
+* FFPKG - TODO
 
-ExFAT - .exfat suffixed file that's an exfat file - `mkexfat.sh` in this repo can create them from the Folder format - not compressed (?)
+# Custom payload repository
 
-FPKG - Fancy compressed package - good for file size - unsupported on 13.60 at the time of writing, can be extracted to Folder format via https://github.com/thanhsondev/PSVIETHOA-FPKG-Builder - which seems heavily vibe coded but works nicely
-
-# PLDMGR_JSON
-
-Custom payload repository for PS5 Payload Manager - forked off https://github.com/RDX-Sci01/PLDMGR_JSON
+This git repository is also a custom payload repository for PS5 Payload Manager - forked off https://github.com/RDX-Sci01/PLDMGR_JSON
 
 Payload sources are automatically refreshed every 2 hours using GitHub Actions. The generated `payloads.json` contains validated payload download URLs and metadata.
 
-## Adding this source
+## Adding this repository as a payload source
 
 Open the Payload Manager dashboard on your PS5:
 
 1. Go to **Settings → Manage Sources**
 2. Click **Add Source**
-3. Paste **one** of the following URLs:
+3. Paste the following URL: `https://raw.githubusercontent.com/C0rn3j/PLDMGR_JSON/main/payloads.json`
 
-### GitHub Raw
-
-```text
-https://raw.githubusercontent.com/C0rn3j/PLDMGR_JSON/main/payloads.json
-```
-
-## Making your own fork
+## Making your own payload repository fork
 
 Simply replace the username in the example links with the one used in your own fork.
 
