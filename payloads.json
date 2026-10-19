@@ -210,13 +210,13 @@
   },
   {
     "name": "ps5upload",
-    "filename": "ps5upload-7.1.0.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.0/ps5upload-7.1.0.elf",
+    "filename": "ps5upload-7.1.8.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.8/ps5upload-7.1.8.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.0/ps5upload-7.1.0.elf",
-    "description": "- PS5Upload Files: manage your files from the couch. A new PS5Upload Files tile on the",
-    "last_update": "2026-10-17",
-    "version": "v7.1.0",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.8/ps5upload-7.1.8.elf",
+    "description": "- Convert reads more Kraken-compressed PS5 packages (#477). Some packages compressed at the",
+    "last_update": "2026-10-19",
+    "version": "v7.1.8",
     "category": "Networking & Servers"
   },
   {
@@ -408,13 +408,13 @@
   },
   {
     "name": "pldmgr",
-    "filename": "pldmgr_v0.6.1.elf",
-    "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.1/pldmgr_v0.6.1.elf",
+    "filename": "pldmgr_v0.6.2.elf",
+    "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.2/pldmgr_v0.6.2.elf",
     "source": "https://github.com/itsPLK/pldmgr/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.1/pldmgr_v0.6.1.elf",
+    "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.2/pldmgr_v0.6.2.elf",
     "description": "Changelog",
-    "last_update": "2026-10-14",
-    "version": "v0.6.1",
+    "last_update": "2026-10-19",
+    "version": "v0.6.2",
     "category": "Utilities & Tools"
   },
   {
