@@ -46,6 +46,26 @@ Drop in payload manager and add this repo to it(see below), then from payload ma
 * FPKG - .pkg fancy compressed package in the console's native format - should be best for file size, performance and compatibility - unsupported on 13.60 at the time of writing, can be extracted to Folder format via https://github.com/thanhsondev/PSVIETHOA-FPKG-Builder - which seems heavily vibe coded but works nicely
 * FFPKG - TODO
 
+# Backing up your own games
+
+TODO, look it up.
+
+To back up games from PSN, you need to have them installed and activated already, meaning that you're going to have a hard time dumping new releases on a jailbreakable console, as there is no known way of getting them installed, since PSN will throw you off on a firmware that's too old.
+
+# Downloading games that aren't your own
+
+Unless you're talking about free(ware) games, figure it out, this doc is not meant to enable piracy.
+
+# Running Linux
+
+You can make the SONY OS gut itself and be replaced with a Linux distribution of your choice (do I hear Arch Linux?) for the current boot.
+
+This means you won't suffer any restrictions on what you want to do by the SONY OS, and you can play regular games made for Windows/Linux natively.
+
+To do that, you cannot use the internal storage, you have to use an internal M.2 slot or an external drive over USB.
+
+The tooling is WIP, but it should hopefully be shortly available for firmware version 13.60 and under.
+
 # Custom payload repository
 
 This git repository is also a custom payload repository for PS5 Payload Manager - forked off https://github.com/RDX-Sci01/PLDMGR_JSON
