@@ -8,7 +8,7 @@ PS5 patches (closed source site I suppose :/) - https://www.prosperopatches.com/
 
 # JB (13.60 or earlier)
 
-You need to be on firmware 13.60 or less. 
+You need to be on firmware 13.60 or less. Note down the version you're on somewhere, in case it'll be helpful later.
 
 Some specific firmware versions are unsupported by the [Relapse exploit](https://github.com/ntfargo/Relapse-Exploit) which this doc uses, in which case look up which other exploit to use for your version.
 
@@ -19,9 +19,14 @@ Edit your Networking settings to be manual, and set DNS server to 45.56.67.85 - 
 
 To jailbreak, simply open the User Guide from Settings, and select click the jailbreak button.
 
-The jailbreak opens privileged ELF loader on port 9021 which can accept other payloads - you can drop them via netcat like so: `nc -q0 192.168.100.13 9021 < pkg-manager_v1.4.1.elf`
+Note that the jailbreak can fail to apply, breaking the current boot of the console, requiring you to reboot it - which almost always will require you to attempt to power off via the menu then hold the physical power button until the console beeps to force actual poweroff, since it'll fail to do so.
 
-The same User Guide website also allows you to drop payloads, which is arguably more user friendly.
+Note that the jailbreak can catastrophically break the SONY OS to the point where its own recovery will kick in - this means you lose all the data on the console, including the blu-ray pairing for the SONY optical drive if you have one - this means your only avenue to use optical media would be to get a non-SONY optical drive which does not have DRM to be used - or to reverse engineer the needed pairing activation yourself.  
+In addition, the recovery system will attempt to download the LATEST FIRMWARE RECOVERY IMAGE - do not let it do that, look up how to manually get the version you're already on, and let it use that instead, else you lose the ability to jailbreak.
+
+The jailbreak, when it succeeds, opens a privileged ELF loader on port 9021 which can accept other payloads - you can drop them via netcat like so: `nc -q0 192.168.100.13 9021 < pkg-manager_v1.4.1.elf`
+
+The same User Guide website also allows you to install payloads over the website, which is arguably more user friendly and you should stick with that, unless you know better.
 
 Drop in payload manager and add this repo to it(see below), then from payload manager install:
   * kstuff-lite - let's you fake license checks (?) - add to autoloader as first
