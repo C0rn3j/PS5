@@ -1,11 +1,3 @@
-# Project aggregator
-
-https://pedrohti.github.io/PS5LinkCentalizer/
-
-# Patches for games
-
-PS5 patches (closed source site I suppose :/) - https://www.prosperopatches.com/PPSA02433
-
 # JB (13.60 or earlier)
 
 You need to be on firmware 13.60 or less. Note down the version you're on somewhere, in case it'll be helpful later.
@@ -46,15 +38,13 @@ Drop in payload manager and add this repo to it(see below), then from payload ma
 * FPKG - .pkg fancy compressed package in the console's native format - should be best for file size, performance and compatibility - unsupported on 13.60 at the time of writing, can be extracted to Folder format via https://github.com/thanhsondev/PSVIETHOA-FPKG-Builder - which seems heavily vibe coded but works nicely
 * FFPKG - TODO
 
-# Backing up your own games
+# Project aggregator
 
-TODO, look it up.
+This project tries to aggregate all the interesting PS5 projects that you may want to check out -  https://pedrohti.github.io/PS5LinkCentalizer/
 
-To back up games from PSN, you need to have them installed and activated already, meaning that you're going to have a hard time dumping new releases on a jailbreakable console, as there is no known way of getting them installed, since PSN will throw you off on a firmware that's too old.
+# Patches for games
 
-# Downloading games that aren't your own
-
-Unless you're talking about free(ware) games, figure it out, this doc is not meant to enable piracy.
+PS5 patches (closed source site I suppose :/) - https://www.prosperopatches.com/PPSA02433
 
 # Running Linux
 
@@ -85,5 +75,15 @@ Open the Payload Manager dashboard on your PS5:
 Simply replace the username in the example links with the one used in your own fork.
 
 You will also need to enable GitHub Actions in the Settings of the fork otherwise the plugins won't be generated/updated.
+
+# Backing up your own games
+
+TODO, look it up.
+
+To back up games from PSN, you need to have them installed and activated already, meaning that you're going to have a hard time dumping new releases on a jailbreakable console, as there is no known way of getting them installed, since PSN will throw you off on a firmware that's too old.
+
+# Downloading games that aren't your own
+
+Unless you're talking about free(ware) games, figure it out, this doc is not meant to enable piracy.
 
 You can edit the payload list by editing [`links.txt`](links.txt).
