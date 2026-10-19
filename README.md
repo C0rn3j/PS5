@@ -8,14 +8,22 @@ PS5 patches (closed source site I suppose :/) - https://www.prosperopatches.com/
 
 # JB (13.60 or earlier)
 
+You need to be on firmware 13.60 or less. 
+
+Some specific firmware versions are unsupported by the [Relapse exploit](https://github.com/ntfargo/Relapse-Exploit) which this doc uses, in which case look up which other exploit to use for your version.
+
 Disable automatic update download AND automatic update installation in Settings.  
 I repeat, disable automatic updates, do that first.
 
-Set DNS server to 45.56.67.85 - this blocks SONY domains and replaces User Guide with jailbreak page.
+Edit your Networking settings to be manual, and set DNS server to 45.56.67.85 - this blocks SONY domains and replaces User Guide with jailbreak page, network connectivity test uses SONY domains, so that will fail, which is expected and desired. 
 
-Jailbreak for 13.60 - https://github.com/ntfargo/Relapse-Exploit - opens privileged ELF loader on port 9021 which can accept other payloads - you can drop them like so: `nc -q0 192.168.100.13 9021 < pkg-manager_v1.4.1.elf`
+To jailbreak, simply open the User Guide from Settings, and select click the jailbreak button.
 
-Drop in payload manager and add this repo to it, then from payload manager install:
+The jailbreak opens privileged ELF loader on port 9021 which can accept other payloads - you can drop them via netcat like so: `nc -q0 192.168.100.13 9021 < pkg-manager_v1.4.1.elf`
+
+The same User Guide website also allows you to drop payloads, which is arguably more user friendly.
+
+Drop in payload manager and add this repo to it(see below), then from payload manager install:
   * kstuff-lite - let's you fake license checks (?) - add to autoloader as first
   * ShadowMountPlus - lets you mount apps from USB or internal storage - add to autoloader as second
     * SMP sometimes breaks scanning new files (presumably because it finds a partial one and doesn't rescan the full one later?) - restarting it in Payload Manager fixes it
