@@ -29,6 +29,7 @@ Drop in payload manager and add this repo to it(see below), then from payload ma
   * klogsrv - let's you read logs over netcat - i.e. `nc 192.168.100.13 3232`
   * WebKit Autoloader Installer - offline way to fancy jailbreak but it seems even less stable than the normal User Guide way
   * PS5SX2 - PS2 emulator, its Helper ELF needs to be autoloaded for it to work, Installer ELF for updates and initial install
+  * garlic-savemgr - Lets you backup and restore game saves
 
 # Game formats
 

@@ -38,5 +38,9 @@ github:ps5-payload-dev/klogsrv
 github:ps5-payload-dev/shsrv
 github:ps5-payload-dev/websrv
 github:seregonwar/zftpd
+
 # A port of PCSX2 to the PS5
 github:Swordpdf/PS5SX2
+
+# PS5 save decrypt/encrypt/browse with embedded web UI
+github:earthonion/garlic-savemgr
