@@ -66,6 +66,17 @@
     "category": "System & Jailbreak"
   },
   {
+    "name": "ps5upload",
+    "filename": "ps5upload-11.0.8.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v11.0.8/ps5upload-11.0.8.elf",
+    "source": "https://github.com/phantomptr/ps5upload/releases",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v11.0.8/ps5upload-11.0.8.elf",
+    "description": "- A friend's buttons hide right away on a phone. When a friend joins, the TV asks who's",
+    "last_update": "2026-11-04",
+    "version": "v11.0.8",
+    "category": "System & Jailbreak"
+  },
+  {
     "name": "elfldr",
     "filename": "elfldr-ps5.elf",
     "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.27/elfldr-ps5.elf",
@@ -195,17 +206,6 @@
     "description": "- IPv6 support",
     "last_update": "2026-08-04",
     "version": "0.4",
-    "category": "Networking & Servers"
-  },
-  {
-    "name": "ps5upload",
-    "filename": "ps5upload-11.0.0.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v11.0.0/ps5upload-11.0.0.elf",
-    "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v11.0.0/ps5upload-11.0.0.elf",
-    "description": "- Play Together: friends play your PS5 as Player 2, 3 and 4 (For #641). While you play, the",
-    "last_update": "2026-11-03",
-    "version": "v11.0.0",
     "category": "Networking & Servers"
   },
   {
@@ -343,12 +343,12 @@
   {
     "name": "CheatRunner",
     "filename": "CheatRunner.elf",
-    "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18/CheatRunner.elf",
+    "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18.1/CheatRunner.elf",
     "source": "https://github.com/notmaj0r/CheatRunner/releases",
-    "source_direct": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18/CheatRunner.elf",
-    "description": "CheatRunner v0.18",
-    "last_update": "2026-10-10",
-    "version": "v0.18",
+    "source_direct": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18.1/CheatRunner.elf",
+    "description": "CheatRunner v0.18.1",
+    "last_update": "2026-11-03",
+    "version": "v0.18.1",
     "category": "Utilities & Tools"
   },
   {
