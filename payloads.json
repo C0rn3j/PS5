@@ -66,17 +66,6 @@
     "category": "System & Jailbreak"
   },
   {
-    "name": "ps5upload",
-    "filename": "ps5upload-11.2.4.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v11.2.4/ps5upload-11.2.4.elf",
-    "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v11.2.4/ps5upload-11.2.4.elf",
-    "description": "- Play: when a computer can't show any picture from a stream, the app no longer repeats \"could not decode the picture\" forever. It switches to H.264 and asks you to press Start...",
-    "last_update": "2026-11-06",
-    "version": "v11.2.4",
-    "category": "System & Jailbreak"
-  },
-  {
     "name": "elfldr",
     "filename": "elfldr-ps5.elf",
     "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.27/elfldr-ps5.elf",
@@ -100,13 +89,13 @@
   },
   {
     "name": "webkit-autoloader",
-    "filename": "webkit-autoloader-installer_v0.6.2.elf",
-    "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.2/webkit-autoloader-installer_v0.6.2.elf",
+    "filename": "webkit-autoloader-installer_v0.7.0.elf",
+    "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.7.0/webkit-autoloader-installer_v0.7.0.elf",
     "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.2/webkit-autoloader-installer_v0.6.2.elf",
+    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.7.0/webkit-autoloader-installer_v0.7.0.elf",
     "description": "Changelog",
-    "last_update": "2026-10-28",
-    "version": "v0.6.2",
+    "last_update": "2026-11-06",
+    "version": "v0.7.0",
     "category": "Loaders"
   },
   {
@@ -206,6 +195,17 @@
     "description": "- IPv6 support",
     "last_update": "2026-08-04",
     "version": "0.4",
+    "category": "Networking & Servers"
+  },
+  {
+    "name": "ps5upload",
+    "filename": "ps5upload-11.3.0.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v11.3.0/ps5upload-11.3.0.elf",
+    "source": "https://github.com/phantomptr/ps5upload/releases",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v11.3.0/ps5upload-11.3.0.elf",
+    "description": "- New: Backup & Restore (Console section). Choose what to keep on your computer: saves, payload settings, screenshots and clips, homebrew and other folders in /data, each with...",
+    "last_update": "2026-11-07",
+    "version": "v11.3.0",
     "category": "Networking & Servers"
   },
   {
