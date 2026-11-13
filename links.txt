@@ -44,3 +44,9 @@ github:Swordpdf/PS5SX2
 
 # PS5 save decrypt/encrypt/browse with embedded web UI
 github:earthonion/garlic-savemgr
+
+# Custom widgets for the home screen
+github:geodox/ps5-wh-widgets
+
+# Dependency of geodox/ps5-wh-widgets
+github:ghost1372/WelcomeHubActivator
