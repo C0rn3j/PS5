@@ -199,13 +199,13 @@
   },
   {
     "name": "ps5upload",
-    "filename": "ps5upload-12.4.15.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.15/ps5upload-12.4.15.elf",
+    "filename": "ps5upload-12.4.17.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.17/ps5upload-12.4.17.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.15/ps5upload-12.4.15.elf",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.17/ps5upload-12.4.17.elf",
     "description": "Play Together:",
     "last_update": "2026-11-13",
-    "version": "v12.4.15",
+    "version": "v12.4.17",
     "category": "Networking & Servers"
   },
   {
@@ -547,6 +547,17 @@
     "description": "Change logs:",
     "last_update": "2026-11-10",
     "version": "v1.14",
+    "category": "Utilities & Tools"
+  },
+  {
+    "name": "WelcomeHubActivator",
+    "filename": "WelcomeHubActivator-v1.2.0.elf",
+    "url": "https://github.com/ghost1372/WelcomeHubActivator/releases/download/v1.2.0/WelcomeHubActivator-v1.2.0.elf",
+    "source": "https://github.com/ghost1372/WelcomeHubActivator/releases",
+    "source_direct": "https://github.com/ghost1372/WelcomeHubActivator/releases/download/v1.2.0/WelcomeHubActivator-v1.2.0.elf",
+    "description": "Improve UI",
+    "last_update": "2026-10-23",
+    "version": "v1.2.0",
     "category": "Utilities & Tools"
   },
   {
