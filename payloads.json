@@ -199,13 +199,13 @@
   },
   {
     "name": "ps5upload",
-    "filename": "ps5upload-12.4.17.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.17/ps5upload-12.4.17.elf",
+    "filename": "ps5upload-12.4.19.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.19/ps5upload-12.4.19.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.17/ps5upload-12.4.17.elf",
-    "description": "Play Together:",
-    "last_update": "2026-11-13",
-    "version": "v12.4.17",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.19/ps5upload-12.4.19.elf",
+    "description": "- Cheats: switching a cheat on or off could fail with \"location 1: bad offset\" and garbled text, even with a correct cheat file. Fixed (#824).",
+    "last_update": "2026-11-14",
+    "version": "v12.4.19",
     "category": "Networking & Servers"
   },
   {
