@@ -68,12 +68,12 @@
   {
     "name": "elfldr",
     "filename": "elfldr-ps5.elf",
-    "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.27/elfldr-ps5.elf",
+    "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.28/elfldr-ps5.elf",
     "source": "https://github.com/ps5-payload-dev/elfldr/releases",
-    "source_direct": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.27/elfldr-ps5.elf",
+    "source_direct": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.28/elfldr-ps5.elf",
     "description": "elfldr payload",
-    "last_update": "2026-10-21",
-    "version": "v0.27",
+    "last_update": "2026-11-19",
+    "version": "v0.28",
     "category": "Loaders"
   },
   {
@@ -89,13 +89,13 @@
   },
   {
     "name": "webkit-autoloader",
-    "filename": "webkit-autoloader-installer_v0.7.1.elf",
-    "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.7.1/webkit-autoloader-installer_v0.7.1.elf",
+    "filename": "webkit-autoloader-installer_v0.8.2.elf",
+    "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.2/webkit-autoloader-installer_v0.8.2.elf",
     "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.7.1/webkit-autoloader-installer_v0.7.1.elf",
+    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.2/webkit-autoloader-installer_v0.8.2.elf",
     "description": "Changelog",
-    "last_update": "2026-11-08",
-    "version": "v0.7.1",
+    "last_update": "2026-11-20",
+    "version": "v0.8.2",
     "category": "Loaders"
   },
   {
@@ -199,13 +199,13 @@
   },
   {
     "name": "ps5upload",
-    "filename": "ps5upload-12.6.11.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.11/ps5upload-12.6.11.elf",
+    "filename": "ps5upload-12.6.13.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.13/ps5upload-12.6.13.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.11/ps5upload-12.6.11.elf",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.13/ps5upload-12.6.13.elf",
     "description": "Which file do I download?",
     "last_update": "2026-11-19",
-    "version": "v12.6.11",
+    "version": "v12.6.13",
     "category": "Networking & Servers"
   },
   {
