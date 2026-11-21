@@ -89,13 +89,13 @@
   },
   {
     "name": "webkit-autoloader",
-    "filename": "webkit-autoloader-installer_v0.8.2.elf",
-    "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.2/webkit-autoloader-installer_v0.8.2.elf",
+    "filename": "webkit-autoloader-installer_v0.8.3.elf",
+    "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.3/webkit-autoloader-installer_v0.8.3.elf",
     "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.2/webkit-autoloader-installer_v0.8.2.elf",
+    "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.3/webkit-autoloader-installer_v0.8.3.elf",
     "description": "Changelog",
-    "last_update": "2026-11-20",
-    "version": "v0.8.2",
+    "last_update": "2026-11-21",
+    "version": "v0.8.3",
     "category": "Loaders"
   },
   {
@@ -199,13 +199,13 @@
   },
   {
     "name": "ps5upload",
-    "filename": "ps5upload-12.6.13.elf",
-    "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.13/ps5upload-12.6.13.elf",
+    "filename": "ps5upload-12.6.16.elf",
+    "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.16/ps5upload-12.6.16.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.13/ps5upload-12.6.13.elf",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.16/ps5upload-12.6.16.elf",
     "description": "Which file do I download?",
-    "last_update": "2026-11-19",
-    "version": "v12.6.13",
+    "last_update": "2026-11-20",
+    "version": "v12.6.16",
     "category": "Networking & Servers"
   },
   {
@@ -365,12 +365,12 @@
   {
     "name": "garlic-savemgr",
     "filename": "garlic-savemgr.elf",
-    "url": "https://github.com/earthonion/garlic-savemgr/releases/download/v1.15-beta23/garlic-savemgr.elf",
+    "url": "https://github.com/earthonion/garlic-savemgr/releases/download/v2.0/garlic-savemgr.elf",
     "source": "https://github.com/earthonion/garlic-savemgr/releases",
-    "source_direct": "https://github.com/earthonion/garlic-savemgr/releases/download/v1.15-beta23/garlic-savemgr.elf",
-    "description": "garlic-savemgr payload",
-    "last_update": "2026-11-11",
-    "version": "v1.15-beta23",
+    "source_direct": "https://github.com/earthonion/garlic-savemgr/releases/download/v2.0/garlic-savemgr.elf",
+    "description": "First stable release.",
+    "last_update": "2026-11-20",
+    "version": "v2.0",
     "category": "Utilities & Tools"
   },
   {
